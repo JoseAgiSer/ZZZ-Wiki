@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZZZ-Wiki</string>
+    <string name="pass_hint">Password</string>
+    <string name="user">User</string>
+    <string name="search_hint">¿What are you looking for?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_about_it">This application has been developed as an evaluation method for the student José Ángel Aguilar Serrano</string>
+    <string name="text_btn_home">HOME</string>
+    <string name="txt_btn_login">Log in</string>
+    <string name="see_pass">See password</string>
+    <string name="txt_create_char">Add a character</string>
+    <string name="txt_see_last">See last character</string>
+    <string name="txt_character">Character</string>
+    <string name="txt_wengine">W-Engine</string>
+    <string name="txt_disc_set">Disc set</string>
+    <string name="txt_stat_disc_4">Stat. Disk 4</string>
+    <string name="txt_stat_disc_5">Stat. Disk 5</string>
+    <string name="txt_stat_disc_6">Stat. Disk 6</string>
+    <string name="btn_add_char">ADD</string>
+    <string name="title_build_disc">DISCS BUILD</string>
+    <string name="title_build_disc_nombre">Name:</string>
+    <string name="title_build_disc_4">Disc 4:</string>
+    <string name="title_build_disc_5">Disc 5:</string>
+    <string name="title_build_disc_6">Disc 6:</string>
+    <string name="title_information">CHARACTER INFORMATION</string>
+    <string name="title_information_element">Element:</string>
+    <string name="title_information_rol">Rol:</string>
+    <string name="title_weapon">W-ENGINE</string>
+
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

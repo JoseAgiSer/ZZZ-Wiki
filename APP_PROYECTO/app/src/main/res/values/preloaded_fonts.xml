@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/montserrat</item>
+        <item>@font/montserrat_bold</item>
+    </array>
+    <string-array name="background_colors">
+        <item>Blanco</item>
+        <item>Negro</item>
+        <item>Rojo</item>
+        <item>Azul</item>
+    </string-array>
+    <string-array name="background_color_values">
+        <item>white</item>
+        <item>black</item>
+        <item>red</item>
+        <item>blue</item>
+    </string-array>
+</resources>

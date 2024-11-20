@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registrarPersonaje">
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/settingsFragment"
+        android:name="com.example.myapplication.PreferencesFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolBar" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <AutoCompleteTextView
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:hint="@string/search_hint"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/settingsFragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolBar" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/btnCrearPersonaje"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolBar">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblPersonaje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:text="@string/txt_character"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/selectPersonaje"
+                android:layout_width="303dp"
+                android:layout_height="55dp"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:id="@+id/lblwengine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_wengine"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/selectWEngine"
+                android:layout_width="303dp"
+                android:layout_height="55dp"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:id="@+id/lblDiscos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_disc_set"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/selectDiscos"
+                android:layout_width="303dp"
+                android:layout_height="55dp"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:id="@+id/lblDisco4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_stat_disc_4"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/selectStatDisc4"
+                android:layout_width="303dp"
+                android:layout_height="55dp"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:id="@+id/lblDisco5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_stat_disc_5"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/selectStatDisc5"
+                android:layout_width="303dp"
+                android:layout_height="55dp"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:id="@+id/lblDisco6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/txt_stat_disc_6"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/selectStatDisc6"
+                android:layout_width="303dp"
+                android:layout_height="55dp"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnCrearPersonaje"
+        android:backgroundTint="@color/my_darkgray"
+        android:layout_width="146dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="76dp"
+        android:text="@string/btn_add_char"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
