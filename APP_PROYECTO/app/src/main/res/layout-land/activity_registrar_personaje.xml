@@ -5,12 +5,12 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".registrarPersonaje">
+    tools:context=".view.RegistrarPersonaje">
 
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/settingsFragment"
-        android:name="com.example.myapplication.PreferencesFragment"
+        android:name="com.example.myapplication.view.PreferencesFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"

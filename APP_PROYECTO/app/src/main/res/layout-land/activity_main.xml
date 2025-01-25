@@ -7,16 +7,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/settingsFragment"
-        android:name="com.example.myapplication.PreferencesFragment"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/addLbl"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolBar" />
-
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolBar"
         android:layout_width="match_parent"
@@ -89,9 +79,9 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/addBtn2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.984"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/addLbl"
-        app:layout_constraintTop_toTopOf="@+id/settingsFragment"
+        app:layout_constraintTop_toBottomOf="@+id/toolBar"
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
@@ -99,7 +89,6 @@
         android:layout_width="162dp"
         android:layout_height="164dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:contentDescription="Consultar el último personaje creado"
@@ -107,8 +96,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.768"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/settingsFragment"
-        app:layout_constraintVertical_bias="0.318"
+        app:layout_constraintTop_toBottomOf="@+id/toolBar"
         app:srcCompat="@drawable/baseline_person_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

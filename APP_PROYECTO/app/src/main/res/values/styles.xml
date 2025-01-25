@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary color -->
+        <item name="colorPrimary">#607D8B</item> <!-- Blue Grey -->
+        <item name="colorPrimaryDark">#455A64</item> <!-- Darker Blue Grey -->
+        <item name="colorAccent">#FF4081</item> <!-- Pink (optional accent color) -->
+
+        <!-- Text appearance -->
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item> <!-- Replace with your Roboto font resource -->
+        <item name="android:textStyle">normal</item>
+
+        <!-- Window background -->
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <!-- Edit text style -->
+        <item name="editTextStyle">@style/EditText.Light</item>
+
+        <!-- Button style -->
+        <item name="buttonStyle">@style/Button.Light</item>
+    </style>
+
+    <style name="AppTheme.ViewPager2" parent="">
+        <item name="android:background">#FF4081</item>
+    </style>
+
+    <style name="EditText.Light" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item> <!-- Replace with your Roboto font resource -->
+    </style>
+
+    <style name="Button.Light" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">#FF4081</item> <!-- Blue Grey -->
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item> <!-- Replace with your Roboto font resource -->
+    </style>
+</resources>

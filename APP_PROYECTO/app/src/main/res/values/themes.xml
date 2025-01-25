@@ -1,9 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
+    <style name="ThemeMyApplication" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:background">@color/white</item>
+        <item name="colorPrimary">@color/my_neon_blue</item>
+        <item name="colorPrimaryVariant">@color/my_neon_blue</item>
+        <item name="colorSecondary">@color/my_neon_yellow</item>
+        <item name="android:statusBarColor">@color/my_neon_blue</item>
+        <item name="android:navigationBarColor">@color/my_neon_yellow</item>
 
-    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+        <item name="android:textColor">@color/my_lightblack</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColorHint">@color/my_gray</item>
+
+        <item name="android:buttonTint">@color/my_neon_yellow</item>
+    </style>
 </resources>

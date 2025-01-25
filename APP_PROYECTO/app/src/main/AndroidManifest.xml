@@ -10,22 +10,31 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/app_ico_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication"
+        android:theme="@style/ThemeMyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".InfoAbout"
+            android:name=".view.ListadoPersonajesRecycler"
             android:exported="false" />
         <activity
-            android:name=".registrarPersonaje"
+            android:name=".view.Registro"
             android:exported="false" />
         <activity
-            android:name=".infoPersonaje"
+            android:name=".view.InfoAbout"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".view.RegistrarPersonaje"
             android:exported="false" />
         <activity
-            android:name=".login"
+            android:name=".view.InfoPersonaje"
+            android:exported="false" />
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.Preferences"
+            android:exported="false" />
+        <activity
+            android:name=".view.Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

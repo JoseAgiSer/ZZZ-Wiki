@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">ZZZ-Wiki</string>
     <string name="pass_hint">Contraseña</string>
+    <string name="pass_hint_repeat">Repetir contraseña</string>
     <string name="user">Usuario</string>
     <string name="search_hint">¿Qué estás buscando?</string>
     <string name="hello_blank_fragment">Fragmento vacío</string>
@@ -12,7 +13,8 @@
     <string name="txt_btn_login">Iniciar sesión</string>
     <string name="see_pass">Ver contraseña</string>
     <string name="txt_create_char">Añadir un personaje</string>
-    <string name="txt_see_last">Ver último personaje</string>
+    <string name="txt_see_last">Ver lista de personajes</string>
+    <string name="txt_registro_user">Nombre de usuario</string>
     <string name="txt_character">Personaje</string>
     <string name="txt_wengine">W-Engine</string>
     <string name="txt_disc_set">Conjunto de discos</string>
@@ -45,4 +47,8 @@
     <string name="attachment_title">Descargar archivos adjuntos entrantes</string>
     <string name="attachment_summary_on">Descargar automáticamente los archivos adjuntos de los correos electrónicos entrantes</string>
     <string name="attachment_summary_off">Descargar archivos adjuntos solo cuando se soliciten manualmente</string>
+    <string name="txt_registrar_form">Registrarse</string>
+    <string name="txt_back_login">Iniciar sesión</string>
+    <string name="txt_list_char_created">Personajes creados</string>
+    <string name="txt_clickhere_create_nuser">Haz click aquí para registrarte</string>
 </resources>

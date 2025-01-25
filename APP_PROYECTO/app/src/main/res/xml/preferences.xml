@@ -15,4 +15,17 @@
         android:entries="@array/background_colors"
         android:entryValues="@array/background_color_values"
         android:defaultValue="white" />
+
+    <ListPreference
+        android:key="pref_theme"
+        android:title="Theme"
+        android:summary="Elige el tema que quieres para tu app"
+        android:entries="@array/theme_entries"
+        android:entryValues="@array/theme_values"
+        android:defaultValue="light" />
+    <!--<SwitchPreference
+        android:key="pref_theme"
+        android:title="Dark Mode"
+        android:summary="Enable dark mode"
+        android:defaultValue="false" />-->
 </PreferenceScreen>

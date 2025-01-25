@@ -3,4 +3,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="my_darkgray">#FF474747</color>
+    <color name="my_gray">#757575</color>
+    <color name="my_lightblack">#212121</color>
+    <color name="my_neon_blue">#303F9F</color>
+    <color name="my_neon_yellow">#FFC107</color>
+    <color name="my_neon_cian">#03DAC6</color>
+    <color name="my_light_purple">#BB86FC</color>
 </resources>

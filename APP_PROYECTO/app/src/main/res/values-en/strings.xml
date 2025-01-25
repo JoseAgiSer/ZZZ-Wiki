@@ -44,4 +44,10 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="txt_registro_user">Username</string>
+    <string name="pass_hint_repeat">Confirm password</string>
+    <string name="txt_registrar_form">Register</string>
+    <string name="txt_back_login">Log in</string>
+    <string name="txt_list_char_created">Created characters</string>
+    <string name="txt_clickhere_create_nuser">Click here to create a new user</string>
 </resources>
